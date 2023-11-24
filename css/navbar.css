@@ -1,0 +1,33 @@
+.navbar { 
+  background-color: #FFBA6A;
+}
+.navbar img { 
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.menucito li a  { 
+  color: whitesmoke;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .menucito ul {
+    text-align: center;
+  }
+  .menucito li a  { 
+    text-align: center;
+  }
+}
+
+/* Estilos para teléfonos móviles */
+
+@media screen and (max-width: 480px) {
+  .menucito ul {
+    text-align: center;
+  }
+  .menucito li a  { 
+    text-align: center;
+  }
+}

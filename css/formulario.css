@@ -1,0 +1,30 @@
+#fomuuu  {
+  background-color: #D9D9D9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 55px;
+}
+
+#fomuuu .custom-btn {
+  width: 120px;
+  background-color: #FFA500;
+  border: 1px solid #808080;
+  color: #fff;
+}
+
+
+
+
+.imgg{ 
+  width: 6rem;
+  margin-bottom: 6px;
+  margin-top: 5px;
+}
+
+.modal .botoncito {
+  width: 120px;
+  background-color: #FFA500;
+  border: 1px solid #808080;
+  color: #fff;
+}

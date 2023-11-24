@@ -1,0 +1,26 @@
+@import url(./navbar.css);
+@import url(./footer.css);
+@import url(./cards.css);
+@import url(./formulario.css);
+
+
+#bodyy{
+  margin: 0;
+  padding: 0;
+  background-color: #FFE8CD;
+}
+
+#tituloo h2 { 
+  margin-top: 80px; 
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+#tituloo p { 
+  color: black;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
