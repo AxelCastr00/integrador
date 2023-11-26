@@ -1,0 +1,13 @@
+.galeria img {
+  max-width: 80%;
+  height: auto;
+  max-height: 110px;
+  display: block;
+  margin: 0 auto;
+}
+
+.galeria #imgrevelde { 
+  margin-top: 20px;
+}
+
+

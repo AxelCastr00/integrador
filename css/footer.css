@@ -35,3 +35,4 @@
     border-radius: 50%;
   }
 }
+.social-icons{animation:social-icons 1s; } @keyframes social-icons{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
