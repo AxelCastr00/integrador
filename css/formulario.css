@@ -26,6 +26,21 @@
   color: #fff;
 }
 
+#titulooo h2 { 
+  margin-top: 50px; 
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+#titulooo p { 
+  color: black;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
 
 #fomuuu input{animation:input 1s; } @keyframes input{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
 
@@ -34,3 +49,7 @@
 #fomuuu textarea{animation:textarea 1s; } @keyframes textarea{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
 
 #fomuuu button{animation:button 1s; } @keyframes button{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
+
+#titulooo h2 {animation:h2 0.4s linear both} @keyframes h2{0%{letter-spacing:.6em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}
+
+#titulooo p {animation:p 0.4s linear both} @keyframes p{0%{letter-spacing:.6em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}
