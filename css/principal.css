@@ -1,0 +1,34 @@
+
+.hero-section {
+  background-image: url('../img/principal/bienvenida1.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 0;
+  position: relative;
+}
+
+.hero-section::before{
+  position: absolute;
+  content:"";
+  inset:0;
+  background-color: rgba(0,0,0,.33);
+}
+
+
+.hero-title {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Noto Sans JP', sans-serif;
+  position:relative;
+}
+
+.hero-description {
+  position:relative;
+  color: #fff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  font-family: 'Heebo', sans-serif;
+}
