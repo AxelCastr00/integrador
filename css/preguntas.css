@@ -47,11 +47,8 @@
 /* Estilo adicional para pantallas pequeñas */
 @media (max-width: 767px) {
   #imagen {
-    margin-top: 50px;
+    display: none;
   }
-
-  .col-md-6 {
-    margin-bottom: 20px;
-  }
+  
 }
 
