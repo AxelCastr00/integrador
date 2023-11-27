@@ -4,6 +4,7 @@
 @import url(./formulario.css);
 @import url(./clientes.css);
 @import url(./preguntas.css);
+@import url(./servicios.css);
 
 
 #bodyy{
@@ -25,4 +26,3 @@
   font-weight: bold;
   text-align: center;
 }
-
