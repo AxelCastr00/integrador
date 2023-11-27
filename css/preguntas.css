@@ -1,0 +1,57 @@
+#bodyy {
+  background-color: #FFE8CD;
+}
+
+
+#preg {
+  margin-bottom: 70px;
+}
+
+#herooo h1 {
+  margin-top: 50px; /* Ajusta el valor según tus preferencias */
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+#herooo h6 {
+  color: white;
+  font-family: 'Heebo', sans-serif;
+}
+
+#imagen {
+  text-align: center;
+}
+
+.accordion-body {
+  background-color: #C3BDBD;
+}
+
+.accordion-button {
+  background-color: #FFBA6A;
+  color: white;
+}
+
+.accordion-button:focus {
+  background-color: #808080;
+}
+
+#tres .accordion-button {
+  background-color: #FFA500;
+}
+
+.accordion-item {
+  border-color: black;
+  border-width: 1px;
+}
+
+/* Estilo adicional para pantallas pequeñas */
+@media (max-width: 767px) {
+  #imagen {
+    margin-top: 50px;
+  }
+
+  .col-md-6 {
+    margin-bottom: 20px;
+  }
+}
+
