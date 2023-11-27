@@ -3,7 +3,6 @@
 @import url(./cards.css);
 @import url(./formulario.css);
 @import url(./clientes.css);
-@import url(./principal.css);s
 
 
 #bodyy{
@@ -25,3 +24,4 @@
   font-weight: bold;
   text-align: center;
 }
+
