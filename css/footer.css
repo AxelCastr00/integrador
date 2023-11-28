@@ -2,12 +2,13 @@
   background-color: #504f4f;
   color: white;
   width: 100%;
-  height: 10rem;
+  height: 11rem;
 }
 
 .footer a {
   color: white;
 }
+
 
 .social-icons {
   list-style: none;
@@ -20,19 +21,24 @@
   margin-right: 10px;
 }
 
-.social-icons img {
-  margin-top: 42px;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
+#face, #linkedin {
+  margin-top: 43px;
+  width: 60px;
+  height: 60px;
 }
 
-@media screen and (max-width: 480px) {
-  .social-icons img {
-    margin-top: 30px;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
+#twitter {
+  margin-top: 50px;
+  width: 43px;
+  height: 43px;
+}
+
+@media (max-width: 768px) {
+  .social-icons {
+    align-items: center; 
+  }
+
+  #face, #linkedin, #twitter {
+    margin-top: 10px; 
   }
 }
-.social-icons{animation:social-icons 1s; } @keyframes social-icons{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
