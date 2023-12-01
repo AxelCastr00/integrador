@@ -35,11 +35,7 @@
 }
 
 .menucito a:hover {
-  color: var(--color-highlight) !important;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-family: var(--font-family-primary);
-  font-weight: 600;
+  color: var(--color-highlight);
 }
 
 /* Estilos del título */
@@ -55,36 +51,11 @@
   color: black;
   font-family: var(--font-family-secondary);
   font-size: 16px;
-  font-weight: bold;
   text-align: center;
+  font-weight: bold;
 }
 
-/* Estilos de la barra de navegación (repetido) */
-.navbar {
-  background-color: #FFBA6A;
-}
 
-.navbar img {
-  width: 3.5rem;
-  height: 3.5rem;
-}
-
-.navbar-nav .nav-link {
-  color: var(--color-text);
-  font-size: 13px;
-  text-transform: uppercase;
-  font-family: var(--font-family-primary);
-  font-weight: 600;
-  transition: color 0.3s;
-}
-
-.menucito a:hover {
-  color: #FF6C22 !important;
-  font-size: 13px;
-  text-transform: uppercase;
-  font-family: var(--font-family-primary);
-  font-weight: 600;
-}
 
 @media screen and (max-width: 768px) {
   /* Estilos para dispositivos móviles (tabletas y teléfonos) */
@@ -171,15 +142,22 @@
 .left-align {
   text-align: left;
 }
+.numeritos {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.numeritos2 {
+  display: flex;
+  justify-content: space-between;
+}
 
 #izq {
-  text-align: left;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 #der {
-  text-align: right;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 /* Estilos específicos de las barras de progreso */

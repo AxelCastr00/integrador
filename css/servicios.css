@@ -54,7 +54,7 @@
   background-color: #504f4f;
   color: white;
   padding: 20px 0;
-  margin-top: auto;
+  margin-top: auto; 
 }
 
 .footer a {
@@ -73,17 +73,13 @@
 }
 
 #face,
-#linkedin {
+#linkedin,
+#git,#twitter,#git {
   margin-top: 10px;
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
 }
 
-#twitter {
-  margin-top: 20px;
-  width: 43px;
-  height: 43px;
-}
 
 @media screen and (max-width: 768px) {
   .menucito ul {
@@ -100,7 +96,7 @@
 
   #face,
   #linkedin,
-  #twitter {
+  #twitter,#git {
     margin-top: 10px;
   }
 }

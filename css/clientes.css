@@ -113,16 +113,11 @@ body {
 }
 
 #face,
-#linkedin {
+#linkedin,
+#git,#twitter {
   margin-top: 10px;
-  width: 60px;
-  height: 60px;
-}
-
-#twitter {
-  margin-top: 20px;
-  width: 43px;
-  height: 43px;
+  width: 50px;
+  height: 50px;
 }
 
 @media screen and (max-width: 480px) {
@@ -165,7 +160,7 @@ body {
 
   #face,
   #linkedin,
-  #twitter {
+  #twitter, #git {
     margin-top: 10px;
   }
 }

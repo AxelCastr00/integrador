@@ -1,21 +1,53 @@
+:root {
+  --color-background: #FFE8CD;
+  --color-navbar: #FFBA6A;
+  --color-text: #4F4A45;
+  --color-highlight: #FF6C22;
+  --font-family-primary: 'Noto Sans JP', sans-serif;
+  --font-family-secondary: 'Heebo', sans-serif;
+}
+
 #bodyy {
-  background-color: #FFE8CD;
+  background-color: var(--color-background);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-#preg {
-  margin-bottom: 70px;
+.navbar {
+  background-color: var(--color-navbar);
 }
 
-#herooo h1 {
-  margin-top: 50px; /* Ajusta el valor según tus preferencias */
-  font-size: 50px;
-  text-align: center;
-  font-family: 'Noto Sans JP', sans-serif;
+.navbar img {
+  width: 3.5rem;
+  height: 3.5rem;
 }
-#herooo h6 {
-  color: white;
-  font-family: 'Heebo', sans-serif;
+
+.navbar-nav .nav-link {
+  font-weight: 600;
+  color: var(--color-text);
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: var(--font-family-primary);
+  transition: color 0.3s;
+}
+
+.menucito a:hover {
+  color: var(--color-highlight);
+}
+
+#herooo {
+  h1 {
+    margin-top: 50px;
+    font-size: 35px;
+    font-family: 600, var(--font-family-primary);
+  }
+
+  p {
+    font-family: 700, 'Heebo', sans-serif;
+    color: var(--color-text);
+    font-size: 20px;
+  }
 }
 
 #imagen {
@@ -27,7 +59,7 @@
 }
 
 .accordion-button {
-  background-color: #FFBA6A;
+  background-color: var(--color-navbar);
   color: white;
 }
 
@@ -36,7 +68,7 @@
 }
 
 #tres .accordion-button {
-  background-color: #FFA500;
+  background-color: #FFA500; /* Asegúrate de que realmente necesitas esta regla aquí */
 }
 
 .accordion-item {
@@ -44,11 +76,54 @@
   border-width: 1px;
 }
 
-/* Estilo adicional para pantallas pequeñas */
 @media (max-width: 767px) {
   #imagen {
     display: none;
   }
-  
 }
 
+.footer {
+  background-color: #504f4f;
+  color: white;
+  padding: 20px 0;
+  margin-top: auto; 
+}
+
+.footer a {
+  color: white;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+#face,
+#linkedin,
+#git,#twitter,#git {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .menucito ul,
+  .menucito li a {
+    text-align: center;
+  }
+  .social-icons {
+    align-items: center; 
+  }
+
+  #face, #linkedin, #twitter, #git {
+    margin-top: 10px; /* Reutiliza la propiedad margin-top */
+  }
+}
