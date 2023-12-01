@@ -118,11 +118,25 @@
   font-family: var(--font-family-secondary);
   text-align: center;
   font-size: 30px;
-  font-weight: 400;
+  font-weight: 600;
   padding: 5px;
   color: white;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+
+#rebelde {
+  font-family: var(--font-family-secondary);
+  text-align: left;
+  font-size: 18px;
+  list-style-type: none;
+}
+
+ #textoo {
+  font-family: var(--font-family-secondary);
+  text-align: left;
+  font-size: 18px;
 }
 
 
@@ -175,9 +189,9 @@
     font-family: var(--font-family-primary);
     text-align: center;
     font-size: 30px;
-    font-weight: 400;
+    font-weight: 600;
     padding: 5px;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 }
