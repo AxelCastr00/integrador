@@ -1,0 +1,157 @@
+:root {
+  --color-background: #FFE8CD;
+  --color-text: #4F4A45;
+  --color-accent: #FF6C22;
+  --font-family-primary: 'Noto Sans JP', sans-serif;
+  --font-family-secondary: 'Heebo', sans-serif;
+}
+
+#bodyy { 
+  background-color: #FFE8CD;
+  
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #FFE8CD;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background-color: #FFBA6A;
+}
+
+.navbar img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.navbar-nav .nav-link {
+  color: var(--color-text);
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: var(--font-family-primary);
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.menucito a:hover {
+  color: var(--color-accent);
+}
+
+#fomuuu  {
+  background-color: #D9D9D9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 55px;
+}
+
+#fomuuu .custom-btn {
+  width: 120px;
+  background-color: #FFA500;
+  border: 1px solid #808080;
+  color: #fff;
+}
+
+.imgg{ 
+  width: 6rem;
+  margin-bottom: 6px;
+  margin-top: 5px;
+}
+
+.modal .botoncito {
+  width: 120px;
+  background-color: #FFA500;
+  border: 1px solid #808080;
+  color: #fff;
+}
+
+#titulooo h2 { 
+  margin-top: 50px; 
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+#titulooo p { 
+  color: black;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+.footer {
+  background-color: #504f4f;
+  color: white;
+  padding: 20px 0;
+  margin-top: auto; 
+}
+
+.footer a {
+  color: white;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+#face,
+#linkedin,
+#git,#twitter {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .menucito ul,
+  .menucito li a {
+    text-align: center;
+  }
+  .social-icons {
+    align-items: center; 
+  }
+
+  #face,
+  #linkedin,
+  #git,#twitter {
+    margin-top: 10px; 
+  }
+
+  #titulo {
+    font-family: var(--font-family-primary);
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding: 5px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+}
+
+
+
+#fomuuu input{animation:input 1s; } @keyframes input{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
+
+#fomuuu label{animation:label 1s; } @keyframes label{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
+
+#fomuuu textarea{animation:textarea 1s; } @keyframes textarea{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
+
+#fomuuu button{animation:button 1s; } @keyframes button{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
+
+#titulooo h2 {animation:h2 0.4s linear both} @keyframes h2{0%{letter-spacing:.6em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}
+
+#titulooo p {animation:p 0.4s linear both} @keyframes p{0%{letter-spacing:.6em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}

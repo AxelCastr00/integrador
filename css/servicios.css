@@ -1,0 +1,109 @@
+#bodyy {
+  margin: 0;
+  padding: 0;
+  background-color: #FFE8CD;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #FFBA6A;
+}
+
+.navbar img {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.menucito a {
+  font-weight: 600;
+  color: #4F4A45 !important;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.menucito a:hover {
+  color: #FF6C22 !important;
+}
+
+#tituloo h2 {
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+#tituloo p {
+  color: black;
+  font-family: 'Heebo', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.footer {
+  background-color: #504f4f;
+  color: white;
+  padding: 20px 0;
+  margin-top: auto; 
+}
+
+.footer a {
+  color: white;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+#face,
+#linkedin,
+#git,#twitter,#git {
+  margin-top: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .menucito ul {
+    text-align: center;
+  }
+
+  .menucito li a {
+    text-align: center;
+  }
+
+  .social-icons {
+    align-items: center;
+  }
+
+  #face,
+  #linkedin,
+  #twitter,#git {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .menucito ul,
+  .menucito li a {
+    text-align: center;
+  }
+}
