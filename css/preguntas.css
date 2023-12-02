@@ -36,18 +36,18 @@
   color: var(--color-highlight);
 }
 
-#herooo {
-  h1 {
+#herooo h2 {
     margin-top: 50px;
     font-size: 35px;
-    font-family: 600, var(--font-family-primary);
-  }
+    font-family: var(--font-family-primary);
+    font-weight: 600;
 
-  p {
-    font-family: 700, 'Heebo', sans-serif;
-    color: var(--color-text);
-    font-size: 20px;
-  }
+}
+h6 {
+  font-family: 'Heebo', sans-serif;
+  color: var(--color-text);
+  font-size: 18px;
+  font-weight: 600;
 }
 
 #imagen {
