@@ -13,6 +13,9 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #ffe8cd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Estilos de la barra de navegación */
